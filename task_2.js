@@ -7,7 +7,7 @@ function verify() {
 
    
 
-    if (2*(k+r) >= Math.sqrt(s)) {
+    if (2*(k+r) <= Math.sqrt(s)) {
         result = "сцена помещается в зал"
         check = true;
     } 
